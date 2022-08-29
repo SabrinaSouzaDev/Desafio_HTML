@@ -1,0 +1,272 @@
+<html lang="br-pt"><head>
+    <title>Meu codigo HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <style type="text/css" media="screen">
+
+   * {
+       margin: 20px;
+       box-sizing: border-box;
+   }
+
+   header {
+       min-height: 436px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: relative;
+   }
+
+   header::before {
+       content: "";
+       width: 100%;
+       height: 100%;
+       position: absolute;
+       background-image: url(img/pexels-soumil-kumar-735911.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center 29%;
+       filter: saturate(0);
+       opacity: 0.4;
+   }
+
+   .header-content {
+       max-width: 752px;
+       padding: 83px 4px;
+       text-align: center;
+       z-index: 2;
+   }
+
+   .header-content img {
+       width: 80%;
+   }
+
+   .header-content p {
+       margin: 30px 0 50px;
+   }
+
+   section {
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 95px;
+   }
+
+   .container {
+       max-width: 1200px;
+   }
+
+   #section-form {
+       flex-direction: column;
+       align-items: center;
+       gap: 16px;
+       text-align: center;
+   }
+
+   #section-form .form-content { 
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 159%;
+align-content: center;
+}
+
+
+   #section-form .form-container {
+       flex-basis: 50%;
+       position: relative;
+
+   }
+
+   #section-form .form-container form {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 24px;
+       background-color: #ebebeb;
+       color: #4e4d4d;
+       text-align: left;
+   }
+
+   #section-form .form-container form button {
+       border: none;
+       background-color: rgb(3, 17, 99);
+       border-style: solid;
+       border-radius: 5px;
+       color: rgb(248, 245, 245);
+       max-width: 300px;
+       align-self: center;
+   }
+
+
+   .container {
+       max-width: 1200px;
+   }
+
+   label {
+       margin-bottom: 5px;
+   }
+
+   main {
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       position: relative;
+   }
+
+
+  .section-texts {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .section-texts h2 {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+  
+
+   #section-gallery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 95px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+   #section-gallery .container {
+       width: 100%;
+   }
+
+   #section-gallery .gallery-container {
+    display: flex;
+    gap: 14px;
+    padding-left: 0px;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+   }
+
+   #section-gallery .gallery-image {
+       width: 250px;
+       height: 250px;
+       box-sizing: initial;
+   }
+
+   #section-gallery .gallery-image img {
+       width: 100%;
+       height: 100%;
+   }
+
+   .item-objetivo {
+       display: flex;
+       margin-bottom: 0px;
+       align-items: center;
+       flex-wrap: nowrap;
+       border-style: outset;
+       width: 100%;
+   }
+
+   sup {
+       margin-left: -35px;
+   }
+
+   blockquote {
+       margin: -10%;
+   }
+
+   del,
+   abbr,
+   mark, sub, hr {
+       margin: 0%;
+   }
+</style>
+</head>
+<body><header>
+    <div class="header-content">
+    <h1>Desafio Dio<small><sup><span>®</span></sup></small></h1>
+
+        <h2>Criar a basica de um Website</h2>
+        <p> 
+            "Neste Desafio de Projeto você irá elaborar um Website com uma estrutura bem básica, utilizando as tags aprendidas durante as aulas práticas assistidas durante os cursos"
+            </p><p>
+                </p><blockquote cite="https://web.dio.me">
+                <a href="https://web.dio.me"><h6><i>Esta é uma citação tirada da
+                do curso da Dio ministrado por Diogo Mainardes.</i></h6></a>
+    </blockquote></div>
+
+</header>
+
+    <main>
+        <section class="item-objetivo">
+            <div class="">
+                <h2 class=" section-texts">Objetivos</h2>
+                <ol>
+                    <li><b><i><span style="color: rgb(2, 84, 160);">Construir uma lista ordenada</span></i></b></li>
+                    <li><b><i><span style="color: rgb(250, 98, 37);">Construir uma lista não ordenada</span> </i></b></li>
+                    <li><b><i><span style="color: rgb(147, 37, 250);">Construir Formulário</span></i></b></li>
+                    <li><b><i><span style="color: rgb(25, 117, 2);">Usar elementos de texto</span></i></b></li>
+                </ol>
+            </div>
+        </section>  
+        <section id="section-gallery">
+            <div class="container section-texts">
+              <h2>Exemplo de lista não ordenada com a tag a</h2>
+              <ul class="gallery-container" role="gallery">
+                <li class="gallery-image invert-element">
+                  <a href="https://web.dio.me"><img src="img/metaimeg.jpg" alt="metaverso"></a>
+                </li>
+                <li class="gallery-image invert-element">
+                    <a href="https://web.dio.me"><img src="img/metaverso.jpg" alt="metaverso img"></a>
+                </li>
+                <li class="gallery-image invert-element">
+                    <a href="https://web.dio.me"><img src="img/metaverso.webp" alt="metaverso"></a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        <section id="section-form" class="container ">
+            <h2>Criação de formulário</h2>
+            <p>
+              Para melhor demostrar o elemento do <abbr title="HyperText Markup Language">HTML</abbr> o input e o label e o button vou usar o exemplo do formulário
+              
+            </p>
+            <hr>
+            
+            <div class="form-content">
+              <h4><u>Para falar conosco preencha o<br>
+               Formulário</u></h4> 
+    
+              <div class="form-container item-border">
+                <form>
+                  <label for="name"><i>Completo</i></label>
+                  <input type="text" name="name" id="txtName">
+              
+                  <label for="email"><i>E-mail</i></label>
+                  <input type="email" name="email" id="txtEmail">
+                   
+                  <button type="submit" id="btnSubscribe"><b>Enviar</b></button>
+                </form>
+                
+              </div>
+            </div>
+          </section>
+
+          <div class="container">
+    <h3>Observações importantes</h3>
+    <h5>a molécula favorita de todos os desenvolvedores é C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, também conhecido como "cafeína".</h5>
+    <hr>
+    <h5>A tag <del><mark>Font</mark></del> NÃO deve ser usada
+        A tag <del><mark>Font</mark></del> está desaprovada nas últimas versões da <abbr title="HyperText Markup Language">HTML</abbr> (HTML 4 e XHTML).
+        
+        O World Wide Web Consortium (W3C) removeu a tag <del><mark>Font</mark></del> de suas recomendações. Em versões futuras da <abbr title="HyperText Markup Language">HTML</abbr>, folhas de estilo (CSS) serão usadas para definir o layout e exibir as propriedades dos elementos HTML.</h5>
+    </div>
+</main>
+</body>
+</html>
