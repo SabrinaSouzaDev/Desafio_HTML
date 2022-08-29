@@ -1,1 +1,1 @@
-<h1 style="color: #fff; font-size: 12px; font-weight: bold ">Projeto Dio</h1>
+<h1 style=" aligt: center">Projeto Dio</h1>
